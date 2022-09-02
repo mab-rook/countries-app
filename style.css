@@ -1,0 +1,59 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  background: pink;
+  overflow: hidden;
+}
+
+.container{
+  width: 500px;
+  height: 450px;
+  background: white;
+  margin: 0 auto;
+  transform: translateY(20%);
+  border-radius: 20px;
+}
+
+.opera input{
+  display: inline-block;
+  width: 40%;
+  padding: 14px 130px 14px 15px;
+  border: 2px solid #f9004d;
+  outline: #f9004d;
+  border-radius: 30px;
+  margin: 35px
+  
+}
+
+.opera button{
+  position: absolute;
+  display: inline-block;
+  outline: none;
+  border: none;
+  padding: 10px 30px;
+  border-radius: 30px;
+  background-color:  #f9004d;
+  color: white;
+  box-shadow: 0px 0px 5px #000, 0px 0px 15px #858585;
+  top: 6px;
+  right: 80px;
+  margin: 35px
+  
+}
+
+img{
+  width: 80px;
+  margin-left: 42%;
+}
+
+h2{
+ text-align: center;
+}
+
+.wrapper{
+  margin-left: 20px;
+  padding: 3px;
+}
+
